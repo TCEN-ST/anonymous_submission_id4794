@@ -8,7 +8,7 @@
 | +enc dec pretrain* | 16.68 |
 | Our method | 17.05 |
 
-*We copy the number of baseline settings from <https://github.com/espnet/espnet/blob/master/egs/libri_trans/st1/RESULTS>. We train our model following the same data preprocessing pipeline.
+*We copy the result number of baseline settings from <https://github.com/espnet/espnet/blob/master/egs/libri_trans/st1/RESULTS>. We train our model following the same data preprocessing pipeline.
 
 ## Results for Transformer architecture on tst2013 (character decoder)
 We implement the Transformer backboned model following the paper 
