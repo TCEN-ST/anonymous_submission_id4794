@@ -14,7 +14,7 @@
 We implement the Transformer backboned model following the paper 
 >Speech-Transformer: A No-Recurrence Sequence-to-Sequence Model for Speech Recognition 
 
-We use the big model setting (12Enc6Dec-wide) for both ASR and ST model. For MT model, we use the same encoder-decoder setting with ASR model but replace the conv layer to word embedding. We didn't use large scale WMT data for MT pre-training.
+We use the big model setting (12Enc6Dec-wide) for both ASR and ST model. For MT model, we use the same encoder-decoder setting but replace the conv layer in encoder to word embedding. We didn't use large scale WMT data for MT pre-training.
 
 |  setting | tst2013 (BLEU) |
 | --- | --- |
