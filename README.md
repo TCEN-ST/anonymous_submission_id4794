@@ -1,12 +1,10 @@
 # anonymous_submission_id4794
 
 ## Results for extended librispeech ST dataset
-                   |  test
- -------------     | -------------
- Vanilla           | 15.71
- +enc pretrain     | 16.30
- +enc dec pretrain | 16.68
- Our method        | 17.05
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
 
 ## Results for Transformer architecture on tst2013 (character decoder)
 First Header  | Second Header
