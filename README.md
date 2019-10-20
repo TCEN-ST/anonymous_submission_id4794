@@ -9,7 +9,10 @@
 | Our method | 17.05 |
 
 ## Results for Transformer architecture on tst2013 (character decoder)
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+|  setting | tst2013 (BLEU) |
+| --- | --- |
+| Vanilla | - |
+| +enc pretrain | 13.41 |
+| +enc dec pretrain | 14.46 |
+| many-to-many + pretrain | 14.98 |
+| Our method (Transformer) | 17.11 |
